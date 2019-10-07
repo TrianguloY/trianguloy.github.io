@@ -1,5 +1,5 @@
 # Current projects:
 
-https://github.com/TrianguloY/intent -> https://trianguloy.github.io/intent/
+- intent: [Github](https://github.com/TrianguloY/intent), [Url](https://trianguloy.github.io/intent/)
 
-https://github.com/TrianguloY/githubPages -> https://trianguloy.github.io/githubPages/
+- githubPages: [Github](https://github.com/TrianguloY/githubPages), [Url](https://trianguloy.github.io/githubPages/)
