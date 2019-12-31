@@ -1,9 +1,9 @@
 /*
  * This is a pro adblock message, to show users that ads are displaying and they should use an adblock.
- * If they already are, the name of the file (ads.js) and/or the class of the message (bottomAd)  will be blocked by the adblock and so those users won't see anything!
+ * If they already are, the name of the file (ads.js) and/or the class of the message (bottomAd) will be blocked by the adblock and so those users won't see anything!
  * 
  * You can use it in your own page if you want, just append:
- * https://trianguloy.github.io/ads.js
+ *     <script src="https://trianguloy.github.io/ads.js" type="text/javascript"></script>
  * anywhere, and the message will be shown in that location if the user is not using any adblock.
  */
 
