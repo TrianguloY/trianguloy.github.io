@@ -1,5 +1,9 @@
 # Current projects:
 
-- intent: [Github](https://github.com/TrianguloY/intent), [Url](https://trianguloy.github.io/intent/)
+## intent:
+- View project as web: [https://trianguloy.github.io/intent/](https://trianguloy.github.io/intent/)
+- Check code on Github: [https://github.com/TrianguloY/intent](https://github.com/TrianguloY/intent)
 
-- githubPages: [Github](https://github.com/TrianguloY/githubPages), [Url](https://trianguloy.github.io/githubPages/)
+## githubPages:
+- View project as web: [https://trianguloy.github.io/githubPages/](https://trianguloy.github.io/githubPages/)
+- Check code on Github: [https://github.com/TrianguloY/githubPages](https://github.com/TrianguloY/githubPages)
