@@ -7,3 +7,7 @@
 ## githubPages:
 - View project as web: [https://trianguloy.github.io/githubPages/](https://trianguloy.github.io/githubPages/)
 - Check code on Github: [https://github.com/TrianguloY/githubPages](https://github.com/TrianguloY/githubPages)
+
+## openInWhatsapp_Web:
+- View project as web: [https://trianguloy.github.io/OpenInWhatsapp_Web/](https://trianguloy.github.io/OpenInWhatsapp_Web/)
+- Check code on Github: [https://github.com/TrianguloY/OpenInWhatsapp_Web](https://github.com/TrianguloY/OpenInWhatsapp_Web)
