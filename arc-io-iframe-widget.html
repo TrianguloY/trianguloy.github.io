@@ -6,5 +6,9 @@
 </head>
 <body>
   <!-- <iframe src="https://trianguloy.github.io/arc-io-iframe-widget"></iframe> -->
+  <script> 
+    document.body.onpointerenter = ()=>parent.postMessage("enter",'*');
+    document.body.onpointerleave = ()=>parent.postMessage("leave",'*');
+  </script>
 </body>
 </html> 
