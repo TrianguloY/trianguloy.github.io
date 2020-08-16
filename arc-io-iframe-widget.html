@@ -2,7 +2,6 @@
 <html>
 <head>
   <script async src="https://arc.io/widget.js#JnX5qiNK"></script>
-  <script src="https://unpkg.com/iframe-resizer/js/iframeResizer.contentWindow.min.js"></script>
 </head>
 <body>
   <!-- <iframe src="https://trianguloy.github.io/arc-io-iframe-widget"></iframe> -->
@@ -12,19 +11,23 @@
           if (mutation.attributeName === 'class') {
               if(mutation.target.classList.contains('is-open')){
                 console.log("enter")
+                parent.postMessage("enter",'*');
               }else{
                 console.log("leave")
+                parent.postMessage("leave",'*');
               }
           }
       })
     }
 
     mutationObserver = new MutationObserver(callback)
-
-    mutationObserver.observe(
-        document.getElementById('arc-widget-launcher-iframe'),
-        { attributes: true }
-    )
+    
+    document.body.onload = ()=> {
+      mutationObserver.observe(
+          document.getElementById('arc-widget-launcher-iframe'),
+          { attributes: true }
+      )
+    }
   </script>
 </body>
 </html> 
