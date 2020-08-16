@@ -8,8 +8,8 @@
  */
 
 var domString = `<div class="bottomAd" style="padding: 10px; background: #500000; text-align: center; font-weight: bold; color: #fff; border-radius: 5px;">
-(!) You are not using an adblocker, you are surfing the web full of ads (and companies may be using your data to target and/or track you). 
-<br>Consider using an adblock, they are available for almost all commercial browsers and will remove almost all ads from the web!
+(!) You may not be using an adblocker, or your current one isn't configured to hide cosmetic ads. (This is the case of mobile devices, not desktop browsers.)
+<br>If you aren't using one consider it, they are available for almost all commercial browsers and will remove almost all ads and trackers from the web!
 </div>`;
 
 var div = document.createElement('div');
