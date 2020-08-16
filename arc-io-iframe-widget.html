@@ -22,12 +22,21 @@
 
     mutationObserver = new MutationObserver(callback)
     
-    document.body.onload = ()=> {
-      mutationObserver.observe(
-          document.getElementById('arc-widget-launcher-iframe'),
-          { attributes: true }
-      )
-    }
+    var retry = 10;
+    var checkExist = setInterval(function() {
+      var frame = document.getElementById('arc-widget-launcher-iframe')
+       if (frame != null) {
+          mutationObserver.observe(
+              frame,
+              { attributes: true }
+          )
+       }else{
+         retry--;
+         if(retry != 0) return;
+       }
+      console.log("cancel")
+       clearInterval(checkExist);
+    }, 1000);
   </script>
 </body>
 </html> 
