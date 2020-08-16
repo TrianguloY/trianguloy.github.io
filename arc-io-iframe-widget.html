@@ -7,8 +7,24 @@
 <body>
   <!-- <iframe src="https://trianguloy.github.io/arc-io-iframe-widget"></iframe> -->
   <script> 
-    document.body.onpointerenter = ()=>parent.postMessage("enter",'*');
-    document.body.onpointerleave = ()=>parent.postMessage("leave",'*');
+    function callback(mutationsList) {
+      mutationsList.forEach(mutation => {
+          if (mutation.attributeName === 'class') {
+              if(mutation.target.classList.contains('is-open')){
+                console.log("enter")
+              }else{
+                console.log("leave")
+              }
+          }
+      })
+    }
+
+    mutationObserver = new MutationObserver(callback)
+
+    mutationObserver.observe(
+        document.getElementById('arc-widget-launcher-iframe'),
+        { attributes: true }
+    )
   </script>
 </body>
 </html> 
