@@ -6,15 +6,19 @@
 <body>
   <!-- <iframe src="https://trianguloy.github.io/arc-io-iframe-widget"></iframe> -->
   <script> 
+    function notify(msg){
+      console.log(msg)
+      parent.postMessage(msg,'*');
+    }
+    
+    
     function callback(mutationsList) {
       mutationsList.forEach(mutation => {
           if (mutation.attributeName === 'class') {
               if(mutation.target.classList.contains('is-open')){
-                console.log("enter")
-                parent.postMessage("enter",'*');
+                notify("open")
               }else{
-                console.log("leave")
-                parent.postMessage("leave",'*');
+                notify("close")
               }
           }
       })
@@ -30,11 +34,11 @@
               frame,
               { attributes: true }
           )
+         notify("enabled")
        }else{
-         retry--;
-         if(retry != 0) return;
+         if(retry-- != 0) return;
+         notify("disabled")
        }
-      console.log("cancel")
        clearInterval(checkExist);
     }, 1000);
   </script>
