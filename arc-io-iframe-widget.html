@@ -14,8 +14,8 @@
     
     function callback(mutationsList) {
       mutationsList.forEach(mutation => {
-          if (mutation.attributeName === 'class') {
-              if(mutation.target.classList.contains('is-open')){
+          if (mutation.attributeName === 'style') {
+              if(mutation.target.style.display != 'none'){
                 notify("open")
               }else{
                 notify("close")
@@ -28,18 +28,18 @@
     
     var retry = 10;
     var checkExist = setInterval(function() {
-      var frame = document.getElementById('arc-widget-launcher-iframe')
-       if (frame != null) {
+      var frame = document.getElementById('arc-popper-iframe')
+      if (frame != null) {
           mutationObserver.observe(
               frame,
               { attributes: true }
           )
-         notify("enabled")
-       }else{
-         if(retry-- != 0) return;
-         notify("disabled")
-       }
-       clearInterval(checkExist);
+          notify("enabled")
+      }else{
+          if(retry-- != 0) return;
+          notify("disabled")
+      }
+      clearInterval(checkExist);
     }, 1000);
   </script>
 </body>
