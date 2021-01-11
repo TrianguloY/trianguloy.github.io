@@ -1,14 +1,11 @@
-# Current projects:
+# Sites:
 
-## intent:
-- View project as web: [https://trianguloy.github.io/intent/](https://trianguloy.github.io/intent/)
-- Check code on Github: [https://github.com/TrianguloY/intent](https://github.com/TrianguloY/intent)
+- [Instant intent experiment](https://trianguloy.github.io/intent/) site ([source code](https://github.com/TrianguloY/intent))
 
-## githubPages:
-- View project as web: [https://trianguloy.github.io/githubPages/](https://trianguloy.github.io/githubPages/)
-- Check code on Github: [https://github.com/TrianguloY/githubPages](https://github.com/TrianguloY/githubPages)
+- [Open In Whatsapp Web](https://trianguloy.github.io/OpenInWhatsapp_Web/) site ([source code](https://github.com/TrianguloY/OpenInWhatsapp_Web))
 
-## openInWhatsapp_Web:
-- View project as web: [https://trianguloy.github.io/OpenInWhatsapp_Web/](https://trianguloy.github.io/OpenInWhatsapp_Web/)
-- Check code on Github: [https://github.com/TrianguloY/OpenInWhatsapp_Web](https://github.com/TrianguloY/OpenInWhatsapp_Web)
+- [githubPages](https://trianguloy.github.io/githubPages/) site (contains more proyects) ([source code](https://github.com/TrianguloY/githubPages))
  
+## other links
+- [TrianguloY's GitHub profile](https://github.com/TrianguloY)
+- [This main page GitHub repository](https://github.com/TrianguloY/trianguloy.github.io) 
